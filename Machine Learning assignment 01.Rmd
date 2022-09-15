@@ -1,0 +1,32 @@
+---
+title: "ML Assignment 01"
+author: "Chaitanya"
+date: "2022-09-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+head(Ass_Excel_01)
+tail(Ass_Excel_01)
+
+summary(Ass_Excel_01)
+
+
+mean(Ass_Excel_01 $`free sulfur dioxide`)
+
+median(Ass_Excel_01$`residual sugar`)
+
+
+mode(Ass_Excel_01$`volatile acidity`)
+
+
+plot(Ass_Excel_01$`volatile acidity`)
+
+
+
+
+```
